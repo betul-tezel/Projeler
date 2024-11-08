@@ -2,113 +2,85 @@
 
 * {
     margin: 0;
-    /*dış kenar uzaklığı*/
     padding: 0;
-    /*iç kenar uzaklığı*/
 }
 
 .container {
     background: url(bg.jpg);
-    /*arka plan resmi*/
     height: 100vh;
-    /*uzunluğu*/
     background-size: 100% 100%;
-    /*arka planın büyüklüğü*/
     background-position: center;
-    /*arka planı ortalamak için*/
-
 }
-
-/*container ın içindeki navbar için düzenlemeler*/
 
 .container .navbar {
     width: 100%;
-    /*genişlik*/
     height: 80px;
-    /*yükseklik*/
-    background: rgba(22, 112, 214, 0.4)
+    background: rgba(22, 112, 214, 0.4);
 }
 
 .navbar ul {
     float: right;
-    /*menüyü sağa götürür*/
     margin-right: 20px;
-    /*dış sağ kenara olan uzaklığı*/
 }
 
 .navbar .logo {
-    display: inline-block;
-    /*satır içi blok özellii*/
     margin-left: 50px;
-    /*dış sol kenara olan uzaklığı*/
     margin-top: 20px;
-    /*dış yukar kenara olan uzaklığı*/
-
+    display: inline-block;
 }
 
 .navbar .logo a {
     text-decoration: none;
-    /*altındaki çizgiyi siler*/
     font-size: 30px;
-    /*yazı büyüklüğü*/
-    font-family: sans-serif;
-    /*yazı stili*/
     color: #f3f3f3;
-
+    font-family: sans-serif;
 }
 
 .navbar ul li {
     list-style: none;
-    /*başındaki simge gider*/
     display: inline-block;
     margin: 0 8px;
     line-height: 80px;
-    /*çizgi yüksekliği*/
 
 }
+
 
 .navbar ul li a {
     color: white;
     text-decoration: none;
     font-size: 20px;
-    padding: 6px 13px;
     font-family: roboto;
+    padding: 6px 13px;
     transition: .5s;
 }
 
 .navbar ul li a.active,
-/*fare yazının üstündeyken olucak değişimler*/
 .navbar ul li a:hover {
-    background: #ff6e00;
+    background: #ff6;
     border-radius: 2px;
-    /*köşe yuvarlaklığı*/
 
 }
 
 .container .center {
     position: absolute;
-    /*etrafındaki öğelerden etkilenmez*/
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    /*öğeyi tam ortalamak amaçlı*/
     font-family: sans-serif;
     user-select: none;
-    /*ziyaretçi bir şey seçemez*/
 }
 
 .center h1 {
     color: black;
-    font-size: 70px;
+    font-size: 75px;
     font-weight: bold;
-    /*yazı tipinin kalınlık seviyesi*/
     width: 900px;
     text-align: center;
-    /*yazıyı ortalar*/
+
 }
 
 .center h2 {
-    color: #fff;
+    color: brown;
     font-size: 50px;
     font-weight: bold;
     width: 885px;
@@ -125,18 +97,15 @@
     width: 150px;
     font-size: 18px;
     font-weight: bold;
-    color: #ffb3b3;
-    background: rgb(207, 96, 88);
-    border: solid 1px red;
+    color: aquamarine;
+    background: #fef;
+    border: solid 1px;
     cursor: pointer;
-    /*öğenin üzerine gelindiğinde farenin pointer simgesine dönüşmesini sağlar*/
     outline: none;
-    /*öğe etkileşime girdiğinde görünen kenarlık çizgisini kaldırır*/
     border-radius: 25px;
     transition: .5s;
-    /*geçiş hızı*/
 }
 
 .buttons button:hover {
-    background: #ffb3b3;
+    background: rgba(12, 12, 67);
 }
