@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.banner {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 32px 8;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 25px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 1s;
+}
+
+.navbar ul li a:hover {
+    color: tomato;
+}
+
+.content {
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    color: #fff;
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 65px;
+}
+
+.content p {
+    margin: 20px auto;
+}
+
+.btn {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    cursor: pointer;
+    background-color: tomato;
+    margin: 20px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.btn:hover {
+    color: black;
+}
+
+.form-basligi {
+    text-align: center;
+    font-size: 40px;
+    color: #554994;
+}
+
+.iletisim-sayfasi {
+    width: 520px;
+    margin: auto;
+}
+
+.iletisim-sayfasi label,
+.iletisim-sayfasi input,
+.iletisim-sayfasi select {
+    display: block;
+    width: 100%;
+    margin-top: 35px;
+}
+
+.iletisim-sayfasi button[type="submit"] {
+    display: block;
+    margin-top: 35px;
+}
+
+.iletisim-sayfasi input,
+.iletisim-sayfasi select {
+    border: 2px solid #F675A8;
+    padding: 10px 15px;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid #7FBCD2;
+    color: black;
+
+}
+
+.iletisim-sayfasi {
+    padding-top: 8%;
+}
+
+label {
+    font-size: 28px;
+}
+
+.btn-2 {
+    width: 180px;
+    padding: 15px 0;
+    border-radius: 35px;
+    margin: 22px;
+    text-align: center;
+    color: white;
+    background-color: #7FBCD2;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 19px;
+    margin-left: 165px;
+}
+
+.btn-2:hover {
+    color: black;
+}
